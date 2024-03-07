@@ -1,0 +1,23 @@
+<app-header [userImg]="profilePicture" [userName]="name" />
+<!-- component -->
+<app-banner />
+<app-movie-carousel
+  [videoContents]="popularMovies"
+  [title]="'Popular Movies'"
+/>
+
+<app-movie-carousel
+  [videoContents]="trandingMovies"
+  [title]="'Tranding Movies'"
+/>
+
+<app-movie-carousel
+  [videoContents]="topRatedMovies"
+  [title]="'Top Rated Movies'"
+/>
+
+<app-movie-carousel
+  [videoContents]="upcomingMovies"
+  [title]="'UpComing Movies'"
+/>
+
